@@ -10,9 +10,68 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 Noto Sans, sans-serif;
+  font: normal 100%/1.3 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #e5c30a;
+  padding: 1rem;
+  margin: 0 0 1.3rem;
+}
+
+.wrapper {
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.section-letter {
+  display: inline-flex;
+  width: 50%;
+}
+
+.section-icon {
+  display: inline-flex;
+  width: 50%;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
